@@ -1,0 +1,93 @@
+THelloWorld
+v7
+r0
+t292267375.331894
+cCheck dependencies
+cProcessPCH /var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch.gch HelloWorld_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.o /Users/todo/Documents/HelloWorld/HelloWorld.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/todo/Documents/HelloWorld/build/Debug/HelloWorld normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B447F4E00000000000013E6
+t1262780238
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B73AA190000000000B37440
+t1265871385
+s11760704
+
+N/Users/todo/Documents/HelloWorld/HelloWorld.m
+c000000004BBB6DC600000000000000EA
+t1270574534
+s234
+i<Foundation/Foundation.h>
+
+N/Users/todo/Documents/HelloWorld/HelloWorld_Prefix.pch
+c000000004BBB6DC600000000000000A2
+t1270574534
+s162
+i<Foundation/Foundation.h>
+
+N/Users/todo/Documents/HelloWorld/build/Debug/HelloWorld
+t1270574560
+s9272
+
+N/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.LinkFileList
+c000000004BBB6DDD0000000000000072
+t1270574557
+s114
+
+N/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.o
+t1270574560
+s6948
+
+N/var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch.gch
+t1270574559
+s41401104
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292267375#292267375#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.o /Users/todo/Documents/HelloWorld/HelloWorld.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292267360.027017
+e292267360.180559
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.o
+x/Users/todo/Documents/HelloWorld/HelloWorld.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/todo/Documents/HelloWorld/HelloWorld.m292267360#292267360#0(0"0(0#0#45"/Users/todo/Documents/HelloWorld/HelloWorld.m4300911832#1456"    cd /Users/todo/Documents/HelloWorld    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/todo/Documents/HelloWorld/build/Debug -I/Users/todo/Documents/HelloWorld/build/Debug/include -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/DerivedSources/x86_64 -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/DerivedSources -include /var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch -c /Users/todo/Documents/HelloWorld/HelloWorld.m -o /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.o0#
+
+CLd /Users/todo/Documents/HelloWorld/build/Debug/HelloWorld normal x86_64
+s292267360.180646
+e292267360.454737
+r1
+xLd
+x/Users/todo/Documents/HelloWorld/build/Debug/HelloWorld
+xnormal
+xx86_64
+lSLF07#2@60"Link /Users/todo/Documents/HelloWorld/build/Debug/HelloWorld292267360#292267360#0(0"0(0#0#0"4300911832#502"    cd /Users/todo/Documents/HelloWorld    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/todo/Documents/HelloWorld/build/Debug -F/Users/todo/Documents/HelloWorld/build/Debug -filelist /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/Objects-normal/x86_64/HelloWorld.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/todo/Documents/HelloWorld/build/Debug/HelloWorld0#
+
+CProcessPCH /var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch.gch HelloWorld_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s292267357.503163
+e292267360.026542
+r1
+xProcessPCH
+x/var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch.gch
+xHelloWorld_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloWorld_Prefix.pch292267357#292267360#0(0"0(0#0#54"/Users/todo/Documents/HelloWorld/HelloWorld_Prefix.pch7298135369040880640#1353"    cd /Users/todo/Documents/HelloWorld    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/todo/Documents/HelloWorld/build/Debug -I/Users/todo/Documents/HelloWorld/build/Debug/include -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/DerivedSources/x86_64 -I/Users/todo/Documents/HelloWorld/build/HelloWorld.build/Debug/HelloWorld.build/DerivedSources -c /Users/todo/Documents/HelloWorld/HelloWorld_Prefix.pch -o /var/folders/mM/mM1TGCb7EwCdtcAeYKBjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-ftwtuhrpzscnnfhhebipfmsqmqmz/HelloWorld_Prefix.pch.gch0#
+
